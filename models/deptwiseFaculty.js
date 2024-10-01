@@ -10,7 +10,7 @@ const deptWiseFaculty = mongoose.Schema({
         {
             ID: {
                 type: mongoose.Schema.ObjectId,
-                ref: 'faculty_test'
+                ref: 'faculty'
             },
             order: Number,
             postion: String
